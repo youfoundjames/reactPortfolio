@@ -1,5 +1,29 @@
-div {
-    font-family: 'Times New Roman', Times, serif;
+body {
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    background-color: lightskyblue;
+}
+
+.columnPadded {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    background-color: lightskyblue;
+    padding: 10px
 }
 
 .main {
@@ -9,6 +33,7 @@ div {
     padding: 20px;
     margin-bottom: 100px;
     background-color: pink;
+    font-size: 16px;
 }
 
 /* Navbar itself */  
@@ -28,7 +53,8 @@ div {
     margin-left: 100px;
     font-style: oblique;
     font-size: 30px;
-    color: white;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* Container with "About/Portfolio/Contact" */  
@@ -43,4 +69,9 @@ div {
     float:left;
     padding-left:10px;
     padding-right:10px;
+}
+
+.portfolioImg {
+    width: 300px;
+    height: 200px
 }
