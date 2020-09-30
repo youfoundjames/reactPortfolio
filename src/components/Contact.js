@@ -3,9 +3,12 @@ import React from 'react';
 const Contact = () => {
    return (
       <div className="main">
-         <h1><b><i>CONTACT</i></b></h1>
-         
-         <div class="form-group">
+         <p className="times"><i>CONTACT</i></p>
+
+         cookjamesarthur [at] gmail [dot] com <br/><br/>
+
+         <a href="https://www.linkedin.com/in/james-cook-b0b53a145/">https://www.linkedin.com/in/james-cook-b0b53a145/</a>
+         {/* <div class="form-group">
             <label>Name:</label><br />
             <input type="text" class="form-control" id="exampleInputPassword1" placeholder="John Smith" /><br /><br />
          </div>
@@ -21,7 +24,7 @@ const Contact = () => {
                placeholder="Your message here"></textarea><br /><br />
          </div>
 
-         <button type="button" class="btn btn-primary" id="submitBtn">Submit</button>
+         <button class="w3-btn w3-white w3-border w3-border-blue w3-round">Submit</button> */}
       </div>
    );
 }

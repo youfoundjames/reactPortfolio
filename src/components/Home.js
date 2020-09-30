@@ -10,11 +10,11 @@ const home = () => {
             <div>
                 <div className="row">
                     <div className="columnPadded">
-                        <img src={sax} style={{ width: "100%" }} alt="James Cook plsaxophone at the Green Mill"
+                        <img src={sax} style={{ width: "100%" }} alt="James Cook playing alto saxophone"
                         />
                     </div>
                     <div className="columnPadded">
-                        I am a full-stack web developer originally from Chicago, IL, currently based in Brooklyn, NY. I am fluent in Javascript, React.js, CSS, MySQL, Node/Express, and MongoDB, among other technologies. In 2020, I recieved a certificate in full-stack web development from Columbia University in New York.<br /><br /><br />
+                        I am a full-stack web developer originally from Chicago, IL, currently based in Brooklyn, NY. I am fluent in Javascript, React.js, CSS, Node/Express, MySQL, and MongoDB, among other technologies. In 2020, I recieved a certificate in full-stack web development from Columbia University in New York.<br /><br /><br />
 Contact me at:<br />
             <i>cookjamesarthur [at] gmail [dot] com</i><br /><br />
                         <a href="https://github.com/jamescook98">GitHub</a>
