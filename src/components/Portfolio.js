@@ -69,17 +69,6 @@ const Portfolio = () => {
          <br /><br />
 
          <PortfolioItem
-            img={password}
-            alt={"demo of password generator app"}
-            header={"Day Planner"}
-            description={"A simple Javascript application that generates a random password based on user-selected criteria. User selects which characters should be present in the password, as well as the length of the password, and upon hitting the \"generate\" button a random password meeting these standards will be printed to the screen."}
-            deployedURL={"https://jamescook98.github.io/passwordgenerator"}
-            repoURL={"https://github.com/jamescook98/passwordgenerator"}
-         />
-
-         <br /><br />
-
-         <PortfolioItem
             img={burger}
             alt={"demo of burger app"}
             header={"Burger"}
@@ -89,7 +78,7 @@ const Portfolio = () => {
          />
       
          <br /><br /><br /><br /><br /><br /><br /><br />
-         
+
          <Footer/>
       </div>
    );
