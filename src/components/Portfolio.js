@@ -84,11 +84,12 @@ const Portfolio = () => {
             alt={"demo of burger app"}
             header={"Burger"}
             description={"A goofy application I made while learning MySQL. Users can \"eat\" burgers and they enter the \"devoured\" section, whereupon they can be \"eaten again\"."}
-            deployedURL={"https://jamescook98.github.io/passwordgenerator"}
-            repoURL={"https://github.com/jamescook98/passwordgenerator"}
+            deployedURL={"https://eat-da-burger-columbia.herokuapp.com/"}
+            repoURL={"https://github.com/jamescook98/eatdaburger"}
          />
       
-      <br /><br /><br /><br /><br /><br /><br /><br />
+         <br /><br /><br /><br /><br /><br /><br /><br />
+         
          <Footer/>
       </div>
    );
