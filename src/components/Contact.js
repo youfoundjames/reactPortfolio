@@ -1,4 +1,6 @@
 import React from 'react';
+import Footer from './Footer';
+import './style.css';
 
 const Contact = () => {
    return (
@@ -25,6 +27,9 @@ const Contact = () => {
          </div>
 
          <button class="w3-btn w3-white w3-border w3-border-blue w3-round">Submit</button> */}
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+         <Footer/>
       </div>
    );
 }

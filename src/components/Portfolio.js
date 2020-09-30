@@ -6,6 +6,7 @@ import workday from '../assets/workday.png';
 import password from '../assets/password.png';
 import burger from '../assets/burger.jpg';
 import PortfolioItem from '../components/PortfolioItem';
+import Footer from './Footer';
 
 const Portfolio = () => {
    return (
@@ -87,6 +88,8 @@ const Portfolio = () => {
             repoURL={"https://github.com/jamescook98/passwordgenerator"}
          />
       
+      <br /><br /><br /><br /><br /><br /><br /><br />
+         <Footer/>
       </div>
    );
 }

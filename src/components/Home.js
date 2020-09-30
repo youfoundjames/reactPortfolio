@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import sax from '../assets/sax.png';
+import Footer from './Footer';
 
 const home = () => {
     return (
@@ -24,6 +25,7 @@ Contact me at:<br />
                 </div>
 
             </div>
+            <Footer/>
         </div>
     );
 }
