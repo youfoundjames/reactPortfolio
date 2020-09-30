@@ -4,79 +4,89 @@ import shotglass from '../assets/shotglass.png';
 import weather from '../assets/weather.png';
 import workday from '../assets/workday.png';
 import password from '../assets/password.png';
+import burger from '../assets/burger.jpg';
+import PortfolioItem from '../components/PortfolioItem';
 
 const Portfolio = () => {
    return (
       <div className="main">
          <p className="times"><i>PORTFOLIO</i></p>
 
-         <div className="row">
-            <div className="column">
-               <img className="portfolioImg" src={peregrine} alt="demo of peregrine travel app" />
-            </div>
-            <div className="column">
-               <h3>Peregrine</h3>
-               This application provides an insider's look at travel, helping people to find niche spots with authentic experiences. Those who want to participate as reviewers can login and recommend their own favorite locations. <br /><br />
-               <a className="portfolio-link" href="https://peregrine-travel.herokuapp.com/">Deployed application</a>
-               <a className="plinksmall" href="https://github.com/jamescook98/peregrine">GitHub</a>
-            </div>
-         </div>
+         <PortfolioItem
+            img={peregrine}
+            alt={"demo of peregrine travel app"}
+            header={"Peregrine"}
+            description={"This application provides an insider's look at travel, helping people to find niche spots with authentic experiences. Those who want to participate as reviewers can login and recommend their own favorite locations."}
+            deployedURL={"https://peregrine-travel.herokuapp.com/"}
+            repoURL={"https://github.com/jamescook98/peregrine"}
+         />
 
          <br /><br />
 
-         <div className="row">
-            <div className="column">
-               <img className="portfolioImg" src={shotglass} alt="demo of shotglass meditation app" />
-            </div>
-            <div className="column">
-               <h3>ShotGlass Meditation</h3>
-               ShotGlass is a simple meditation app which allows the user to tailor their own timed meditative experience by selecting from a pool of randomly-generated affirmations and audiovisual themes. <br /><br />
-               <a className="portfolio-link" href="https://bubblyrobot.github.io/teamrepo/">Deployed application</a>
-               <a className="plinksmall" href="https://github.com/jamescook98/shotglassmeditation">GitHub</a>
-            </div>
-         </div>
+         <PortfolioItem
+            img={shotglass}
+            alt={"demo of shotglass meditation app"}
+            header={"ShotGlass Meditation"}
+            description={"ShotGlass is a simple meditation app which allows the user to tailor their own timed meditative experience by selecting from a pool of randomly-generated affirmations and audiovisual themes."}
+            deployedURL={"https://bubblyrobot.github.io/teamrepo/"}
+            repoURL={"https://github.com/jamescook98/shotglassmeditation"}
+         />
 
          <br /><br />
 
-         <div className="row">
-            <div className="column">
-               <img className="portfolioImg" src={weather} alt="demo of weather dashboard app" />
-            </div>
-            <div className="column">
-               <h3>Weather Dashboard</h3>
-               Search for a city to see real-time local weather information as well as a five day forecast. Uses OpenWeatherMap API.<br /><br />
-               <a className="portfolio-link" href="https://jamescook98.github.io/weatherdashboard">Deployed application</a>
-               <a className="plinksmall" href="https://github.com/jamescook98/weatherdashboard">GitHub</a>
-            </div>
-         </div>
+         <PortfolioItem
+            img={weather}
+            alt={"demo of weather dashboard app"}
+            header={"Weather Dashboard"}
+            description={"Search for a city to see real-time local weather information as well as a five day forecast. Uses OpenWeatherMap API."}
+            deployedURL={"https://jamescook98.github.io/weatherdashboard"}
+            repoURL={"https://github.com/jamescook98/weatherdashboard"}
+         />
 
          <br /><br />
 
-         <div className="row">
-            <div className="column">
-               <img className="portfolioImg" src={workday} alt="demo of workday planner app" />
-            </div>
-            <div className="column">
-               <h3>Day Planner</h3>
-               Displays current day schedule to add hourly events. Events are color-coded by time of day: past hour is in gray, current hour is in red, future hours are in green. Uses moment.js. My first project using jQuery.<br/><br/>
-               <a className="portfolio-link" href="https://jamescook98.github.io/dayplanner">Deployed application</a>
-               <a className="plinksmall" href="https://github.com/jamescook98/dayplanner">GitHub</a>
-            </div>
-         </div>
+         <PortfolioItem
+            img={workday}
+            alt={"demo of workday planner app"}
+            header={"Day Planner"}
+            description={"Displays current day schedule to add hourly events. Events are color-coded by time of day: past hour is in gray, current hour is in red, future hours are in green. Uses moment.js. My first project using jQuery."}
+            deployedURL={"https://jamescook98.github.io/dayplanner"}
+            repoURL={"https://github.com/jamescook98/dayplanner"}
+         />
 
          <br /><br />
 
-         <div className="row">
-            <div className="column">
-               <img className="portfolioImg" src={password} alt="demo of password generator app" />
-            </div>
-            <div className="column">
-               <h3>Password Generator</h3>
-               A simple Javascript application that generates a random password based on user-selected criteria. User selects which characters should be present in the password, as well as the length of the password, and upon hitting the "generate" button a random password meeting these standards will be printed to the screen.<br/><br/>
-               <a className="portfolio-link" href="https://jamescook98.github.io/passwordgenerator">Deployed application</a>
-               <a className="plinksmall" href="https://github.com/jamescook98/passwordgenerator">GitHub</a>
-            </div>
-         </div>
+         <PortfolioItem
+            img={password}
+            alt={"demo of password generator app"}
+            header={"Password Generator"}
+            description={"Displays current day schedule to add hourly events. Events are color-coded by time of day: past hour is in gray, current hour is in red, future hours are in green. Uses moment.js. My first project using jQuery."}
+            deployedURL={"https://jamescook98.github.io/dayplanner"}
+            repoURL={"https://github.com/jamescook98/dayplanner"}
+         />
+
+         <br /><br />
+
+         <PortfolioItem
+            img={password}
+            alt={"demo of password generator app"}
+            header={"Day Planner"}
+            description={"A simple Javascript application that generates a random password based on user-selected criteria. User selects which characters should be present in the password, as well as the length of the password, and upon hitting the \"generate\" button a random password meeting these standards will be printed to the screen."}
+            deployedURL={"https://jamescook98.github.io/passwordgenerator"}
+            repoURL={"https://github.com/jamescook98/passwordgenerator"}
+         />
+
+         <br /><br />
+
+         <PortfolioItem
+            img={burger}
+            alt={"demo of burger app"}
+            header={"Burger"}
+            description={"A goofy application I made while learning MySQL. Users can \"eat\" burgers and they enter the \"devoured\" section, whereupon they can be \"eaten again\"."}
+            deployedURL={"https://jamescook98.github.io/passwordgenerator"}
+            repoURL={"https://github.com/jamescook98/passwordgenerator"}
+         />
+      
       </div>
    );
 }
