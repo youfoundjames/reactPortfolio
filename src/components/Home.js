@@ -4,8 +4,9 @@ import sax from '../assets/sax.png';
 
 const home = () => {
     return (
-        <div className="main">
-            <h1>About Me</h1>
+        <div className="mainExtra">
+            <h1></h1>
+            <h1></h1>
             <div>
                 <div className="row">
                     <div className="columnPadded">

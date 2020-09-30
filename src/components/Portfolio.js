@@ -8,7 +8,7 @@ import password from '../assets/password.png';
 const Portfolio = () => {
    return (
       <div className="main">
-         <h1>Portfolio</h1>
+         <h1><b><i>PORTFOLIO</i></b></h1>
 
          <div className="row">
             <div className="column">

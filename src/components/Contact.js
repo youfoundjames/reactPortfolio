@@ -3,7 +3,8 @@ import React from 'react';
 const Contact = () => {
    return (
       <div className="main">
-         <h1>Contact</h1>
+         <h1><b><i>CONTACT</i></b></h1>
+         
          <div class="form-group">
             <label>Name:</label><br />
             <input type="text" class="form-control" id="exampleInputPassword1" placeholder="John Smith" /><br /><br />
