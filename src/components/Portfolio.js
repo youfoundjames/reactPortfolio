@@ -1,4 +1,5 @@
 import React from 'react';
+import bones from '../assets/bones.png';
 import peregrine from '../assets/peregrine.png';
 import shotglass from '../assets/shotglass.png';
 import weather from '../assets/weather.png';
@@ -14,12 +15,12 @@ const Portfolio = () => {
          <p className="times"><i>PORTFOLIO</i></p>
 
          <PortfolioItem
-            img={peregrine}
-            alt={"demo of peregrine travel app"}
-            header={"Peregrine"}
-            description={"This application provides an insider's look at travel, helping people to find niche spots with authentic experiences. Those who want to participate as reviewers can login and recommend their own favorite locations."}
-            deployedURL={"https://peregrine-travel.herokuapp.com/"}
-            repoURL={"https://github.com/jamescook98/peregrine"}
+            img={bones}
+            alt={"demo of bones calendar app"}
+            header={"bones.nyc"}
+            description={"This project is meant to serve as a consolidated event board where fans of jazz and other experimental musics can find information on performances taking place in New York City. Users are able to filter events by date and by artist; they are also able to create their own accounts and bookmark these events."}
+            deployedURL={"https://bones-08060.herokuapp.com/"}
+            repoURL={"https://github.com/jamescook98/bones.nyc"}
          />
 
          <br /><br />
@@ -31,6 +32,17 @@ const Portfolio = () => {
             description={"ShotGlass is a simple meditation app which allows the user to tailor their own timed meditative experience by selecting from a pool of randomly-generated affirmations and audiovisual themes."}
             deployedURL={"https://bubblyrobot.github.io/teamrepo/"}
             repoURL={"https://github.com/jamescook98/shotglassmeditation"}
+         />
+
+         <br /><br />
+
+         <PortfolioItem
+            img={peregrine}
+            alt={"demo of peregrine travel app"}
+            header={"Peregrine"}
+            description={"This application provides an insider's look at travel, helping people to find niche spots with authentic experiences. Those who want to participate as reviewers can login and recommend their own favorite locations."}
+            deployedURL={"https://peregrine-travel.herokuapp.com/"}
+            repoURL={"https://github.com/jamescook98/peregrine"}
          />
 
          <br /><br />

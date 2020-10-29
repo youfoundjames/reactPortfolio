@@ -2,7 +2,7 @@ import React from 'react';
 
 const PortfolioItem = (props) => {
     return (
-        <div className="row">
+        <div className="row portfolioItem">
             <div className="column">
                <img className="portfolioImg" src={props.img} alt={props.alt} />
             </div>

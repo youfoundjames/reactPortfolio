@@ -72,10 +72,15 @@ body {
     padding-right:10px;
 }
 
+.portfolioItem {
+    padding-top: 40px;
+    background-color: white;
+}
+
 .portfolioImg {
     padding-top: 20px;
     width: 100%;
-    height: 200px
+    width: 100%;
 }
 
 .form-control {
