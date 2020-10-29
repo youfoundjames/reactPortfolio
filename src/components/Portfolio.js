@@ -62,8 +62,8 @@ const Portfolio = () => {
             alt={"demo of password generator app"}
             header={"Password Generator"}
             description={"Displays current day schedule to add hourly events. Events are color-coded by time of day: past hour is in gray, current hour is in red, future hours are in green. Uses moment.js. My first project using jQuery."}
-            deployedURL={"https://jamescook98.github.io/dayplanner"}
-            repoURL={"https://github.com/jamescook98/dayplanner"}
+            deployedURL={"https://jamescook98.github.io/passwordgenerator/"}
+            repoURL={"https://github.com/jamescook98/passwordgenerator"}
          />
 
          <br /><br />
