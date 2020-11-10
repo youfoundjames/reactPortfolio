@@ -1,15 +1,17 @@
 import React from 'react';
 import Footer from './Footer';
+import FadeIn from 'react-fade-in';
 import './style.css';
 
 const Contact = () => {
    return (
       <div className="main">
          <p className="times"><i>CONTACT</i></p>
-
-         cookjamesarthur [at] gmail [dot] com <br/><br/>
+         <FadeIn>
+         <p>cookjamesarthur [at] gmail [dot] com <br/><br/></p>
 
          <a href="https://www.linkedin.com/in/james-cook-b0b53a145/">https://www.linkedin.com/in/james-cook-b0b53a145/</a>
+         </FadeIn>
          {/* <div class="form-group">
             <label>Name:</label><br />
             <input type="text" class="form-control" id="exampleInputPassword1" placeholder="John Smith" /><br /><br />

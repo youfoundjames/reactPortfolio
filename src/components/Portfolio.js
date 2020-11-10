@@ -1,6 +1,5 @@
 import React from 'react';
 import bones from '../assets/bones.gif';
-import peregrine from '../assets/peregrine.png';
 import shotglass from '../assets/shotglass.gif';
 import weather from '../assets/weather.gif';
 import workday from '../assets/workday.gif';
@@ -8,12 +7,13 @@ import password from '../assets/password.png';
 import burger from '../assets/burger.jpg';
 import PortfolioItem from '../components/PortfolioItem';
 import Footer from './Footer';
+import FadeIn from 'react-fade-in';
 
 const Portfolio = () => {
    return (
       <div className="main">
          <p className="times"><i>PORTFOLIO</i></p>
-
+         <FadeIn>
          <PortfolioItem
             img={bones}
             alt={"demo of bones calendar app"}
@@ -36,7 +36,7 @@ const Portfolio = () => {
 
          <br /><br />
 
-         <PortfolioItem
+         {/* <PortfolioItem
             img={peregrine}
             alt={"demo of peregrine travel app"}
             header={"Peregrine"}
@@ -45,7 +45,7 @@ const Portfolio = () => {
             repoURL={"https://github.com/jamescook98/peregrine"}
          />
 
-         <br /><br />
+         <br /><br /> */}
 
          <PortfolioItem
             img={weather}
@@ -91,7 +91,8 @@ const Portfolio = () => {
       
          <br /><br /><br /><br /><br /><br /><br /><br />
 
-         <Footer/>
+         </FadeIn>
+
       </div>
    );
 }
