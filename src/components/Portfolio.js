@@ -1,4 +1,5 @@
 import React from 'react';
+import employee from '../assets/employee.gif';
 import bones from '../assets/bones.gif';
 import shotglass from '../assets/shotglass.gif';
 import weather from '../assets/weather.gif';
@@ -46,6 +47,17 @@ const Portfolio = () => {
          />
 
          <br /><br /> */}
+
+<PortfolioItem
+            img={employee}
+            alt={"demo of employee directory app"}
+            header={"Employee Directory"}
+            description={"An employee directory built in React which allows employers to view non-sensitive data about employees, sort the list alphabetically, and filter the list by search."}
+            deployedURL={"https://secure-hollows-70505.herokuapp.com/"}
+            repoURL={"https://github.com/jamescook98/employeeDirectory"}
+         />
+
+         <br /><br />
 
          <PortfolioItem
             img={weather}
