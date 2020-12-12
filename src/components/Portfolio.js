@@ -1,7 +1,9 @@
 import React from 'react';
 import employee from '../assets/employee.gif';
 import bones from '../assets/bones.gif';
+import steve from '../assets/steve.gif';
 import shotglass from '../assets/shotglass.gif';
+import budget from '../assets/budget.gif';
 import weather from '../assets/weather.gif';
 import workday from '../assets/workday.gif';
 import password from '../assets/password.png';
@@ -26,6 +28,16 @@ const Portfolio = () => {
 
          <br /><br />
 
+         <PortfolioItem
+            img={steve}
+            alt={"demo of Steve Cohn app"}
+            header={"stevecohnmusic"}
+            description={"Website commissioned by veteran NY-based composer/multi-instrumentalist Steve Cohn."}
+            deployedURL={"https://stevecohn.herokuapp.com/"}
+            repoURL={"https://github.com/jamescook98/stevecohn"}
+         />
+
+         <br /><br />
          <PortfolioItem
             img={shotglass}
             alt={"demo of shotglass meditation app"}
@@ -60,6 +72,17 @@ const Portfolio = () => {
          <br /><br />
 
          <PortfolioItem
+            img={budget}
+            alt={"demo of budget tracker app"}
+            header={"Budget Tracker"}
+            description={"My first project using browser caching, this is a simple budget tracker application that allows users to add expenses and deposits to their budget, as well as graph the total over time. If the user does so without an internet connection, their transactions will populate the total when brought back online."}
+            deployedURL={"https://shielded-savannah-54902.herokuapp.com/"}
+            repoURL={"https://github.com/jamescook98/budgetTracker"}
+         />
+
+         <br /><br />
+
+         <PortfolioItem
             img={weather}
             alt={"demo of weather dashboard app"}
             header={"Weather Dashboard"}
@@ -70,6 +93,7 @@ const Portfolio = () => {
 
          <br /><br />
 
+      
          <PortfolioItem
             img={workday}
             alt={"demo of workday planner app"}
