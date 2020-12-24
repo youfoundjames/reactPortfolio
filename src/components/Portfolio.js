@@ -23,7 +23,7 @@ const Portfolio = () => {
             header={"bones.nyc"}
             description={"This project is meant to serve as a consolidated event board where fans of jazz and other experimental musics can find information on performances taking place in New York City. Users are able to filter events by date and by artist; they are also able to create their own accounts and bookmark these events."}
             deployedURL={"https://bones-08060.herokuapp.com/"}
-            repoURL={"https://github.com/jamescook98/bones.nyc"}
+            repoURL={"https://github.com/youfoundjames/bones.nyc"}
          />
 
          <br /><br />
@@ -34,7 +34,7 @@ const Portfolio = () => {
             header={"stevecohnmusic"}
             description={"Website commissioned by veteran NY-based composer/multi-instrumentalist Steve Cohn."}
             deployedURL={"https://stevecohn.herokuapp.com/"}
-            repoURL={"https://github.com/jamescook98/stevecohn"}
+            repoURL={"https://github.com/youfoundjames/stevecohn"}
          />
 
          <br /><br />
@@ -44,7 +44,7 @@ const Portfolio = () => {
             header={"ShotGlass Meditation"}
             description={"ShotGlass is a simple meditation app which allows the user to tailor their own timed meditative experience by selecting from a pool of randomly-generated affirmations and audiovisual themes."}
             deployedURL={"https://bubblyrobot.github.io/teamrepo/"}
-            repoURL={"https://github.com/jamescook98/shotglassmeditation"}
+            repoURL={"https://github.com/youfoundjames/shotglassmeditation"}
          />
 
          <br /><br />
@@ -55,7 +55,7 @@ const Portfolio = () => {
             header={"Peregrine"}
             description={"This application provides an insider's look at travel, helping people to find niche spots with authentic experiences. Those who want to participate as reviewers can login and recommend their own favorite locations."}
             deployedURL={"https://peregrine-travel.herokuapp.com/"}
-            repoURL={"https://github.com/jamescook98/peregrine"}
+            repoURL={"https://github.com/youfoundjames/peregrine"}
          />
 
          <br /><br /> */}
@@ -66,7 +66,7 @@ const Portfolio = () => {
             header={"Employee Directory"}
             description={"An employee directory built in React which allows employers to view non-sensitive data about employees, sort the list alphabetically, and filter the list by search."}
             deployedURL={"https://secure-hollows-70505.herokuapp.com/"}
-            repoURL={"https://github.com/jamescook98/employeeDirectory"}
+            repoURL={"https://github.com/youfoundjames/employeeDirectory"}
          />
 
          <br /><br />
@@ -77,7 +77,7 @@ const Portfolio = () => {
             header={"Budget Tracker"}
             description={"My first project using browser caching, this is a simple budget tracker application that allows users to add expenses and deposits to their budget, as well as graph the total over time. If the user does so without an internet connection, their transactions will populate the total when brought back online."}
             deployedURL={"https://shielded-savannah-54902.herokuapp.com/"}
-            repoURL={"https://github.com/jamescook98/budgetTracker"}
+            repoURL={"https://github.com/youfoundjames/budgetTracker"}
          />
 
          <br /><br />
@@ -87,8 +87,8 @@ const Portfolio = () => {
             alt={"demo of weather dashboard app"}
             header={"Weather Dashboard"}
             description={"Search for a city to see real-time local weather information as well as a five day forecast. Uses OpenWeatherMap API."}
-            deployedURL={"https://jamescook98.github.io/weatherdashboard"}
-            repoURL={"https://github.com/jamescook98/weatherdashboard"}
+            deployedURL={"https://youfoundjames.github.io/weatherdashboard"}
+            repoURL={"https://github.com/youfoundjames/weatherdashboard"}
          />
 
          <br /><br />
@@ -99,8 +99,8 @@ const Portfolio = () => {
             alt={"demo of workday planner app"}
             header={"Day Planner"}
             description={"Displays current day schedule to add hourly events. Events are color-coded by time of day: past hour is in gray, current hour is in red, future hours are in green. Uses moment.js. My first project using jQuery."}
-            deployedURL={"https://jamescook98.github.io/dayplanner"}
-            repoURL={"https://github.com/jamescook98/dayplanner"}
+            deployedURL={"https://youfoundjames.github.io/dayplanner"}
+            repoURL={"https://github.com/youfoundjames/dayplanner"}
          />
 
          <br /><br />
@@ -110,8 +110,8 @@ const Portfolio = () => {
             alt={"demo of password generator app"}
             header={"Password Generator"}
             description={"Displays current day schedule to add hourly events. Events are color-coded by time of day: past hour is in gray, current hour is in red, future hours are in green. Uses moment.js. My first project using jQuery."}
-            deployedURL={"https://jamescook98.github.io/passwordgenerator/"}
-            repoURL={"https://github.com/jamescook98/passwordgenerator"}
+            deployedURL={"https://youfoundjames.github.io/passwordgenerator/"}
+            repoURL={"https://github.com/youfoundjames/passwordgenerator"}
          />
 
          <br /><br />
@@ -122,7 +122,7 @@ const Portfolio = () => {
             header={"Burger"}
             description={"A goofy application I made while learning MySQL. Users can \"eat\" burgers and they enter the \"devoured\" section, whereupon they can be \"eaten again\"."}
             deployedURL={"https://eat-da-burger-columbia.herokuapp.com/"}
-            repoURL={"https://github.com/jamescook98/eatdaburger"}
+            repoURL={"https://github.com/youfoundjames/eatdaburger"}
          />
       
          <br /><br /><br /><br /><br /><br /><br /><br />
