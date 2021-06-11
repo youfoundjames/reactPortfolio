@@ -18,23 +18,23 @@ const Portfolio = () => {
          <p className="times"><i>PORTFOLIO</i></p>
          <FadeIn>
          <PortfolioItem
+            img={steve}
+            alt={"demo of Steve Cohn app"}
+            header={"stevecohnmusic"}
+            description={"Website commissioned by veteran NY-based composer/multi-instrumentalist Steve Cohn."}
+            deployedURL={"http://stevecohnmusic.com/"}
+            repoURL={"https://github.com/youfoundjames/stevecohn"}
+         />
+
+         <br /><br />
+
+          <PortfolioItem
             img={bones}
             alt={"demo of bones calendar app"}
             header={"bones.nyc"}
             description={"This project is meant to serve as a consolidated event board where fans of jazz and other experimental musics can find information on performances taking place in New York City. Users are able to filter events by date and by artist; they are also able to create their own accounts and bookmark these events."}
             deployedURL={"https://bones-08060.herokuapp.com/"}
             repoURL={"https://github.com/youfoundjames/bones.nyc"}
-         />
-
-         <br /><br />
-
-         <PortfolioItem
-            img={steve}
-            alt={"demo of Steve Cohn app"}
-            header={"stevecohnmusic"}
-            description={"Website commissioned by veteran NY-based composer/multi-instrumentalist Steve Cohn."}
-            deployedURL={"https://stevecohn.herokuapp.com/"}
-            repoURL={"https://github.com/youfoundjames/stevecohn"}
          />
 
          <br /><br />
